@@ -69,6 +69,14 @@ class Kunde{
 		this.IstEingeloggt
 	}
 }
+// Kunden-Objekt global anlegen (ganz oben in der Datei, vor allen Routen)
+let kunde = {
+  Name: "Max Mustermann",
+  Mail: "max@beispiel.de",
+  Telefonnummer: "0123456789",
+  Nummer: "123456",
+  IstEingeloggt: true
+};
 
 // Kundenobjekt deklariert und instanziiert
 let kunde = new Kunde();
